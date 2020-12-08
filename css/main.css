@@ -1,6 +1,6 @@
 html{
     /*colocando imagen de fondo -- no repite se centra*/
-    background: url('../image/backgroud-mount-mini.jpg') no-repeat center center fixed;
+    background: url('/image/backgroud-mount-mini.jpg') no-repeat center center fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
