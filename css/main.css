@@ -9,6 +9,14 @@ html{
 
 a{
     text-decoration: none;
+    color:black;
+}
+
+
+h3{
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .main{
@@ -48,17 +56,47 @@ a{
     
 }
 
+.card__title{
+    position: relative;
+    top:20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.card__enlance{
+    transition: 0.3;
+}
+.card__enlance:hover{
+    color:rgba(209,82,187,1)
+}
+.card__subtitle{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: lowercase;
+}
 .card__form{
     display:block;
-    position: relative;
     margin:0px auto;
-    width: 290px;
-    margin-top:80px;
+    width: 300px;
+    margin-top:70px;
 
 }
 
+.card__input{
+    position: relative;
+}
+
+.input-icon{
+    position: absolute;
+    left: 5px;
+    top: calc(23% - 0.5em); 
+  }
+
 .card__input-field{
-    width: 100%;
+    width: 90%;
     border:none;
     outline: none;
     border-bottom: 1px solid rgb(238,174,202);
@@ -70,13 +108,14 @@ a{
     transition: .5s;
 }
 
-.card__input-field[type=text]{
-    font-family: Roboto;
+.card__input-field[type=text],.card__input-field[type=password]{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 25px;
     color: #807575;
     font-style: normal;
     font-weight: 200;
     line-height: 30px;
-    font-size:18px;
+    font-size:15px;
 }
 
 .card__input-field:hover{
@@ -85,3 +124,7 @@ a{
     background-size: 100% 2px;
 
 }
+
+.icon { 
+    padding: 10px; 
+} 

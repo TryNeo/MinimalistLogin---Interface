@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="main">
@@ -19,14 +22,19 @@
                     <h3 class="card__title">
                         <a href="#" class="card__enlance">Login</a>
                     </h3>
-                    <p class="card__subtitle">login here using your username and password</p>
+                    <h3 class="card__subtitle">login here using your username and password</h3>
                     
                     <form class="card__form"action="/" method="get">
                         <div class="card__input">
+                            <label for="username" class="fa fa-user input-icon"></label>
                             <input type="text" class="card__input-field" name="username" id="username" placeholder="Username">
                         </div>
                         <div class="card__input">
+                            <label for="password" class="fa fa-lock input-icon"></label>
                             <input type="password" class="card__input-field" name="password" id="password" placeholder="Password">
+                        </div>
+                        <div >
+
                         </div>
                     </form>
                 </div>
