@@ -77,14 +77,14 @@ h3{
     position: relative;
     top: 20px;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     text-transform: lowercase;
 }
 .card__form{
     display:block;
     margin:0px auto;
-    width: 300px;
-    margin-top:70px;
+    width: 280px;
+    margin-top:60px;
 
 }
 
@@ -152,7 +152,6 @@ h3{
 
 
 .card__remember-link{
-    width:35%;
     float: right;
     text-align: right;
 
@@ -198,4 +197,35 @@ h3{
 
 .card__button-field:hover{
     box-shadow: inset 340px 0 0 0  rgb(255,78,162);
+}
+
+.card__socials{
+    width: 145px;
+    margin:0px auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.card__socials-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.card__socials-images{
+    width:100%;
+    display:inline-flex;
+    justify-content: center;
+}
+
+.card__image-facebook{
+    margin-left:-100px;
+    width:35px;
+}
+
+.card__image-google{
+    margin-top:2px;
+    margin-right: -100px;
+    width:30px;
 }
