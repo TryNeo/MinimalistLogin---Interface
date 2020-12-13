@@ -20,7 +20,7 @@ h3{
 }
 
 .main{
-    widows: 100%;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     flex-wrap: center;
@@ -228,4 +228,31 @@ h3{
     margin-top:2px;
     margin-right: -100px;
     width:30px;
+}
+
+/* ----  Responsiveness   ----  */
+@media (max-width: 760px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card__thumbnail{
+        display:none;
+    }
+    .card{
+        width:300px;
+    }
+
+   .card__subtitle{
+        display: block;   
+        width:150px;
+        margin: 0px auto;
+   }
+    
+   .card__form{
+       width:218px;
+   }
 }
