@@ -246,13 +246,21 @@ h3{
         width:300px;
     }
 
+    .card__title{
+        top:10px;
+    }
+
    .card__subtitle{
-        display: block;   
+        display: block;
+        top:5px;   
         width:150px;
         margin: 0px auto;
    }
     
    .card__form{
        width:218px;
+       margin-top: 45px;
    }
+
+  
 }
